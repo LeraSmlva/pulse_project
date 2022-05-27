@@ -1,0 +1,68 @@
+@media (max-width: 767px) {
+    .promo {
+        min-height: 300px;
+        padding: 21px 10px 93px 10px;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 19px;
+            margin-top: 5px;
+        }
+        &__icons {
+            width: 350px;
+            margin-top: 30px;
+        }
+        &__icon {
+            width: 86px;
+            font-size: 10px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button {
+        width: 135px;
+        &_main {
+            font-size: 12px;
+            margin-top: 50px;
+            height: 40px;
+        }
+    }
+    .benefits {
+        min-height: 200px;
+        padding: 30px 10px 50px 10px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__item {
+            max-width: 175px;
+        }
+        &__subtitle {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        &__text {
+            font-size: 11px;
+            line-height: 16px;
+            margin-top: 10px;
+        }
+    }
+}
